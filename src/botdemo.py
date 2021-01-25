@@ -9,6 +9,8 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
 
+print("Hello World")
+
 driver = webdriver.Chrome()
 driver.get("http://www.python.org")
 time.sleep(5)
